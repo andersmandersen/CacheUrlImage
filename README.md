@@ -20,6 +20,15 @@ $image = $cul->cache('http://www.birds.cornell.edu/AllAboutBirds/studyingbirdsi/
 echo "<img src='".$image."'>";
 ```
 
+A more advanced example:
+
+```php
+$cul->path = "cache/";
+$cul->cache_time = "3600";
+$image = $cul->cache('http://www.birds.cornell.edu/AllAboutBirds/studyingbirdsi/ring_billed_1st_winter.jpg');
+echo "<img src='".$image."'>";
+```
+
 ## Credits
 
 CacheUrlImage was created by [Anders Andersen](http://andersmandersen.dk). Released under the MIT license.
