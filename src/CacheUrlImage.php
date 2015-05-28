@@ -17,14 +17,14 @@ class CacheUrlImage {
 	*
 	*	@var string
 	*/
-	private $path = "images/";
+	public $path = "images/";
 
 	/**
 	*  How long should the image be cached (in seconds)
 	*
 	*	@var string
 	*/
-	private $cache_time = "3600";
+	public $cache_time = "3600";
 	
 	/**
 	*	Cache image
